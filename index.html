@@ -1,34 +1,65 @@
-<html>
-<meta name="viewport" content="width=device-width, initial-scale=1" <head>
-<link rel="stylesheet" type="text/css" href="index.css">
-<title>Home</title>
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Portfolio · About</title>
+  <link rel="stylesheet" href="index.css">
 </head>
-
 <body>
-  <div class="all">
-    <div id="shikh-sign">
-      <a href="index.html"> <img src="img\signature5d9863102e449.png"></img></a>
-    </div>
-
-    <div>
-      <img id="shikh-img" src="img\potrait.jpg" alt="pic here"></img>
-    </div>
-
-    <div>
-      <nav id="nav-bars">
-        <a href="index.html" rel="stylesheet" type="text/css">About</a>
-        <a href="work.html" rel="stylesheet" type="text/css">Work</a>
-        <a href="education.html" rel="stylesheet" type="text/css">Education</a>
-        <a href="inclanation.html" rel="stylesheet" type="text/css">Inclination</a>
+  <div class="site-shell">
+    <header class="header">
+      <a class="brand" href="index.html">
+        <img src="img/signature5d9863102e449.png" alt="Signature logo">
+      </a>
+      <nav class="nav" aria-label="Main navigation">
+        <a class="active" href="index.html">About</a>
+        <a href="work.html">Work</a>
+        <a href="education.html">Education</a>
+        <a href="inclanation.html">Inclination</a>
       </nav>
-    </div>
+    </header>
 
+    <main class="main">
+      <section class="hero">
+        <img src="img/potrait.jpg" alt="Portrait of Shikhar Singh">
+        <div>
+          <p class="eyebrow">Personal Portfolio</p>
+          <h1>Shikhar Singh</h1>
+          <p>Builder focused on software, content, and creative execution. This refreshed layout uses a modern Apple-inspired visual system with glass layers, depth, and subtle 3D motion.</p>
+        </div>
+      </section>
+
+      <section class="panel-grid">
+        <article class="card card--wide">
+          <h2>What I Do</h2>
+          <ul class="list">
+            <li>Develop practical software and web experiences.</li>
+            <li>Create and manage content for digital products.</li>
+            <li>Blend technical thinking with design aesthetics.</li>
+          </ul>
+        </article>
+        <article class="card card--narrow">
+          <h3>Core Focus</h3>
+          <div class="tag-wrap">
+            <span class="tag">Engineering</span>
+            <span class="tag">UI/UX</span>
+            <span class="tag">Marketing</span>
+            <span class="tag">Strategy</span>
+          </div>
+        </article>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="socials">
+        <a href="https://www.facebook.com/xyrostrom" target="_blank" rel="noreferrer"><img src="img/facebook.png" alt="Facebook"></a>
+        <a href="https://www.linkedin.com/in/shikharsingh5051/" target="_blank" rel="noreferrer"><img src="img/linkedin.png" alt="LinkedIn"></a>
+        <a href="https://twitter.com/xyro_strom" target="_blank" rel="noreferrer"><img src="img/twitter.png" alt="Twitter"></a>
+        <a href="mailto:shikhar.singh@zoho.com"><img src="img/email.png" alt="Email"></a>
+      </div>
+      <p class="credit">@By xyro_strom</p>
+    </footer>
   </div>
-  <div class="cre">
-    <h5>@By xyro_strom</h5>
-  </div>
-  <div id="foot">
-    <a class="Facebook" href="https://www.facebook.com/xyrostrom" target="_blank"><img src="img\facebook.png"></a>
-    <a class="Linkindin" href="https://www.linkedin.com/in/shikharsingh5051/" target="_blank"><img src="img\linkedin.png"></a>
-    <a class="instagram" href="https://twitter.com/xyro_strom" target="_blank"><img src="img\twitter.png" </a> <a class="email" href="https://mailto:shikhar.singh@zoho.com" target="_blank"><img
-        src="img\email.png" </a> </div> </body> </html>
+</body>
+</html>
